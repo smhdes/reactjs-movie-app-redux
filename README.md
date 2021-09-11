@@ -14,3 +14,5 @@ npm start
 The project open development mode on http://localhost:3000 .
 Note:
 You can add your themoviedb api key to folder road src/constant/constant.js
+
+=>>>>  on the main page in search bar add keys and then push enter key
