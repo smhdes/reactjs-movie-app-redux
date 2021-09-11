@@ -13,6 +13,7 @@ export default function SimilarMovies({ movieId }) {
   const similarMovies = useSelector(
     (state) => state.moviesReducer.similarMovies
   );
+
   const [similarMovieID, setSimilarMovieID] = React.useState("");
 
   React.useEffect(() => {
