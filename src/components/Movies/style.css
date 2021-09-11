@@ -1,0 +1,117 @@
+.movie {
+    background-color: rgb(55, 30, 85);
+    width: 300px;
+    margin: 1rem;
+    border-radius: 3px;
+    box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+}
+
+.movie-over {
+    background-color: rgb(248, 239, 239);
+    color: '#fff';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-height: 100%;
+    overflow: auto;
+    padding: 1rem;
+    transform: translateY(100%);
+   transition: .5s ease;
+}
+
+.movie img {
+    max-width: 100%;
+}
+
+
+.movie-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.movie-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.movie-info h5 {
+    margin: 0;
+    color: seashell;
+}
+
+.movie-info span {
+    margin: 0;
+    padding: .6rem;
+    color: seashell;
+}
+
+.movie:hover .movie-over{
+    transform: translateY(0%);
+}
+
+.header {
+    background-color: rgb(55, 30, 85);
+    padding: 1rem;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    }
+
+.search{
+   border: 3px solid #fff;
+   outline: none;
+   border-radius: 30px;
+}
+
+.tag{
+    background-color: steelblue;
+    border-radius: 4px;
+    }
+.tag.red{
+
+    background-color: red;
+}
+
+.tag.orange{
+    background-color: orange;
+}
+
+.tag.green{
+    background-color: green;
+}
+
+
+.tags{
+
+        color: rgb(35, 11, 100);
+        border: none;
+        padding: 10px;
+        outline: none;
+        font-size: 12px;
+        background: #92FE9D;
+        border-radius: 12px;
+        -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        -webkit-transition: 300ms ease-in-out;
+        -o-transition: 200ms ease-in-out;
+        transition: 200ms ease-in-out;
+
+}
+
+.tags-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
