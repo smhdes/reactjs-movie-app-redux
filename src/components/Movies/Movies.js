@@ -23,7 +23,7 @@ const setVoteColor = (vote) => {
 
 const movie = () => {
   const dispatch = useDispatch();
-  let keys = new Array(4);
+
   const [movies, setMovies] = React.useState([]);
   const [searchText, setSearchText] = React.useState("");
   const [searchKeys, setSearchKeys] = React.useState([]);
