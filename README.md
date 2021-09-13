@@ -1,6 +1,6 @@
 React Movie App (Redux)
 
-#Description
+#Description:
 This application is using Reactjs-Redux list and search movies from the themoviedb.
 
 #Usage:
